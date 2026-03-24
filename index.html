@@ -51,6 +51,8 @@
 			.life-card h3 { margin: 0 0 0.5em 0; color: #444; }
 			.life-card p { margin: 0; color: #666; line-height: 1.6; }
 			.life-card .date { font-size: 0.8em; color: #aaa; margin-bottom: 0.5em; }
+			.life-card { transition: transform 0.2s, box-shadow 0.2s; }
+			.life-card:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,0.12); }
 			#skills .features { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2em; padding: 0; list-style: none; max-width: 700px; margin: 0 auto; }
 			#skills .features li {
 				display: flex; align-items: center; gap: 1.2em;
@@ -80,6 +82,7 @@
 				<nav id="nav">
 					<ul>
 						<li><a href="#about" class="active">关于我</a></li>
+						<li><a href="#news">AI新闻</a></li>
 						<li><a href="life.html">生活点滴</a></li>
 						<li><a href="#life">工作日记</a></li>
 						<li><a href="#team">团队成员</a></li>
@@ -114,7 +117,50 @@
 					</div>
 				</section>
 
-					<!-- Life Photos -->
+					<!-- AI News -->
+				<section id="news" class="main special">
+					<header class="major">
+						<h2>🤖 AI 新闻</h2>
+						<p>每天了解一点 AI 行业的最新动态</p>
+					</header>
+					<div style="max-width:800px;margin:0 auto;text-align:left;">
+
+						<a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE1Oc0xFU1YwZC1lbHBnTXh4Z2tVTDlrMUl5R2ZnTXJqTUFpZGd5YmpkempVSXcxYUNhSUEtcjZxVm9HRzl4eWU4QTJvUUc5TmxCem5uVUtka1dTb01nZGo5czk1QXRKNEx1NnNXb2lB?oc=5" target="_blank" style="text-decoration:none;color:inherit;">
+							<div class="life-card" style="border-left: 4px solid #c44cff; cursor:pointer;">
+								<h3>🍎 苹果计划6月发布"人工智能重大进展"</h3>
+								<p style="font-size:0.8em;color:#999;margin-bottom:0.5em;">📰 新浪网 · 3月24日</p>
+								<p>苹果公司预告将在6月发布重大 AI 进展，业界猜测将推出更强本地端侧 AI 能力，或与 iOS 系统深度整合。<span style="color:#c44cff;">→ 点击阅读</span></p>
+							</div>
+						</a>
+
+						<a href="https://news.google.com/rss/articles/CBMivAFBVV95cUxOQlIzZlJSUDE4QmRjU0F3OXNJRlRKUExselhRTHNJdk95WTZKQXVIM2dmcHlSWW0tYWRrVWNYb0NaNFdQeC1PVGQ4b1lSUlpteHhYcEs0NXN3dHctR1RvN1otdWV5NUFHOEUwZ0N4YURhMThuSExVMzRyTktINlRUUUh6dlBONVpoV1FkSTVNUlZWNGxaSmpxc3hBay1kQTNmY0lBTVdmcjRybDFVem4wTW5sMHhOR2JLNjEyNg?oc=5" target="_blank" style="text-decoration:none;color:inherit;">
+							<div class="life-card" style="border-left: 4px solid #6e8efb; cursor:pointer;">
+								<h3>🎓 北京理工+华为揭牌全球首个人工智能实践实验室（AIPL）</h3>
+								<p style="font-size:0.8em;color:#999;margin-bottom:0.5em;">📰 新浪财经 · 3月24日</p>
+								<p>北理工与华为联合成立全球首个人工智能实践实验室（AIPL），聚焦 AI 产业应用落地与人才培养。<span style="color:#6e8efb;">→ 点击阅读</span></p>
+							</div>
+						</a>
+
+						<a href="https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ORDNJRkxSd0NtSHI3cDBvZU9PSU9jTnE0X3ZrN1JhYUNVT1NhUXRWMTF3TGxvaVlINnVkbnZOZWJkaFRlal9uRTRHZnY0SUtiYXZhQXFnTnMxNGFpeXg4QjRMaUo3QdIBa0FVX3lxTE5ZWWFlNFVGbW9yZEE0ZXFCdzNZZ0dyNHZtRUR5TzJtOWc0RkhaajZkN0dtREpuX0tYVkcyWk02ZnRjaEhVNVNXZnRqTTF0bjItTUZjYTV3SzNUXzZPZnBsZEQ3bS1BbkhiVmhj?oc=5" target="_blank" style="text-decoration:none;color:inherit;">
+							<div class="life-card" style="border-left: 4px solid #00d4aa; cursor:pointer;">
+								<h3>🤖 当AI智能体开始上岗：2026年春天，三个中国人的兴奋与恐惧</h3>
+								<p style="font-size:0.8em;color:#999;margin-bottom:0.5em;">📰 BBC · 3月24日</p>
+								<p>BBC深度报道：2026年春季，AI Agent 加速落地中国的就业市场，带来效率革命的同时也引发人们对职业未来的思考。<span style="color:#00d4aa;">→ 点击阅读</span></p>
+							</div>
+						</a>
+
+						<a href="https://news.google.com/rss/articles/CBMib0FVX3lxTFBzSDF3OHI1RVNjTkJjb3RnczJSY3VoX3FiTkJKVnRiTHZaVWVVenUzeUxwZm8xdDB0cTJlS1UxTWQ5dkhlblNMQ2NkOUJacExxT3BLRldhTjdPcTVtLVhKZUFLLS1ZbUxPd2sxYUNQaw?oc=5" target="_blank" style="text-decoration:none;color:inherit;">
+							<div class="life-card" style="border-left: 4px solid #ff6b9d; cursor:pointer;">
+								<h3>💼 汇丰任命首位首席人工智能官，加码AI以削减成本</h3>
+								<p style="font-size:0.8em;color:#999;margin-bottom:0.5em;">📰 新浪网 · 3月24日</p>
+								<p>传统金融机构加速拥抱 AI，汇丰宣布任命首位 CAIO，用 AI 技术优化业务流程、降低运营成本。<span style="color:#ff6b9d;">→ 点击阅读</span></p>
+							</div>
+						</a>
+
+					</div>
+				</section>
+
+				<!-- Life Photos -->
 				<section id="photos" class="main special">
 					<header class="major">
 						<h2>🌿 生活点滴</h2>
